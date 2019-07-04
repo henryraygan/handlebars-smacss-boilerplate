@@ -1,0 +1,18 @@
+[class^="button--"],
+.button {
+  --background-color: #cceecc;
+  --color-button: #000;
+  border: 0;
+  background: var(--background-color);
+  color: var(--color-button);
+  padding: 0 .30rem;
+  border-radius: .25rem;
+  line-height: 2;
+  font-size: .80rem;
+  font-weight: bold;
+}
+
+.button--primary {
+  --background-color: var(--secondary);
+  --color-button: #FFF;
+}

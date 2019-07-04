@@ -1,0 +1,29 @@
+<div class="principles">
+  <h2 class="principles__title">
+    Principaes Atracoes
+  </h2>
+  <div class="principles-atractions">
+    {{#each principles_atractions}}
+      <div class="card-principles">
+        <img class="card-principles__image" src="{{ image }}" alt="{{ title }}">
+        <div class="card-principles__body">
+          <h3 class="card-principles__title">
+            {{ title }}
+          </h3>
+          <span class="card-principles__subtitle">
+            A partir de
+          </span>
+          <p>
+            r $
+            <span class="card-principles__price">
+              {{ price }}
+            </span>
+          </p>
+          <button class="button--primary">
+            Reservar
+          </button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

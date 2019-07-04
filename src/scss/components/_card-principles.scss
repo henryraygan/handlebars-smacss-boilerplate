@@ -1,0 +1,23 @@
+.card-principles {
+  display: grid;
+  grid-template-columns: .7fr 1fr;
+  background-color: var(--light-blue);
+  border-radius: .25rem;
+  overflow: hidden;
+  &__image {
+    height: 100%;
+    object-fit: cover;
+  }
+  &__body {
+    padding: .4rem;
+    line-height: 1.3;
+  }
+  &__title {
+    font-size: .90rem;
+  }
+  &__price {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--text-color-accent);
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "home": {
+    "meta-title": "home page",
+    "meta-description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero qui accusamus quibusdam, eum vero placeat soluta deleniti enim laborum. Aspernatur fugiat ea ad, dolores atque, distinctio sunt iure accusamus sint!"
+  },
+  "about": {
+    "meta-title": "about page",
+    "meta-description": "description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi qui cum vitae suscipit voluptatem, alias ea facilis quae magnam ut rerum dolorum. Sint deserunt esse, debitis blanditiis modi ipsam laudantium?",
+    "title": "1-title Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem voluptate nulla mollitia quis, aspernatur eum neque, quasi! Omnis corporis modi quia, obcaecati, aut atque! Odio facilis quisquam maxime tempore iure!"
+  },
+  "principles_atractions": [
+    {
+      "title": "Copacabana",
+      "image": "http://dudasviajeras.com/wp-content/uploads/2014/06/playa-de-Ipanema-Brasil.jpg",
+      "price": "171"
+    },
+    {
+      "title": "Copacabana",
+      "image": "http://dudasviajeras.com/wp-content/uploads/2014/06/playa-de-Ipanema-Brasil.jpg",
+      "price": "171"
+    },
+    {
+      "title": "Jardin botanico",
+      "image": "http://dudasviajeras.com/wp-content/uploads/2014/06/playa-de-Ipanema-Brasil.jpg",
+      "price": "171"
+    },
+    {
+      "title": "Jardin botanico",
+      "image": "http://dudasviajeras.com/wp-content/uploads/2014/06/playa-de-Ipanema-Brasil.jpg",
+      "price": "171"
+    },
+    {
+      "title": "Jardin botanico",
+      "image": "http://dudasviajeras.com/wp-content/uploads/2014/06/playa-de-Ipanema-Brasil.jpg",
+      "price": "171"
+    },
+    {
+      "title": "Jardin botanico",
+      "image": "http://dudasviajeras.com/wp-content/uploads/2014/06/playa-de-Ipanema-Brasil.jpg",
+      "price": "171"
+    }
+  ]
+}

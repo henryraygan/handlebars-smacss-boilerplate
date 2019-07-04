@@ -1,0 +1,11 @@
+.articles {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 6rem;
+}
+
+.principles-atractions {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: .55rem;
+}

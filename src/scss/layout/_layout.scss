@@ -1,0 +1,7 @@
+.container {
+  --breakpoint-xl: 1920px;
+	width: 93%;
+	max-width: var(--breakpoint-xl);
+	margin-right: auto;
+	margin-left: auto;
+}

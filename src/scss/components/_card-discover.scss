@@ -1,0 +1,22 @@
+.card-discover {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border-radius: .25rem;
+  overflow: hidden;
+  border: 1px solid var(--light-blue); 
+
+  &__title {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  &__description {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-image: linear-gradient(to bottom, #f9faef, var(--light-blue));
+  }
+
+  &__info {
+    font-size: 2rem;
+  }
+}
