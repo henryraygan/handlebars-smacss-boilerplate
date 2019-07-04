@@ -8,6 +8,28 @@
     "meta-description": "description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi qui cum vitae suscipit voluptatem, alias ea facilis quae magnam ut rerum dolorum. Sint deserunt esse, debitis blanditiis modi ipsam laudantium?",
     "title": "1-title Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem voluptate nulla mollitia quis, aspernatur eum neque, quasi! Omnis corporis modi quia, obcaecati, aut atque! Odio facilis quisquam maxime tempore iure!"
   },
+  "navbar": [
+    {
+      "name": "Hoteis",
+      "slug": "/"
+    },
+    {
+      "name": "Pacotes",
+      "slug": "#"
+    },
+    {
+      "name": "Passeios",
+      "slug": "#"
+    },
+    {
+      "name": "Ofertas",
+      "slug": "#"
+    },
+    {
+      "name": "A Cidade",
+      "slug": "#"
+    }
+  ],
   "principles_atractions": [
     {
       "title": "Copacabana",

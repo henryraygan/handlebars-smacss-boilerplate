@@ -1,9 +1,11 @@
 export const activeMenu = () => {
   const menu = document.getElementById('main-menu')
   if (menu) {
-      const links = Array.from(menu.querySelectorAll('a'))
+      const links = [...menu.querySelectorAll('a')]
+      console.log(links)
       links.map(link => {
-          if (link.href === location.href || link.href === location.href.slice(0,-1)) link.classList.add('active')
+          console.log(link);
+          if (link.pathname === window.location.pathname.slice(0,-1)) link.classList.add('active')
       })
   }
 }

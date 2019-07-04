@@ -13,6 +13,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: linear-gradient(0deg, rgba(255,255,255,1) 65%, var(--primary) 94%);
+
 }
 
 h1,

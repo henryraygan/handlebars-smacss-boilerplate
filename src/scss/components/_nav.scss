@@ -3,5 +3,20 @@
   list-style-type: none;
   &__item {
     padding: 1rem;
+    transition: all .3s ease-in-out;
+  }
+}
+
+.nav--principal {
+  background: #FFF;
+  width: max-content;
+  position: relative;
+  top: 25px;
+  .nav__item {
+    color: var(--secondary);
+    &:hover {
+      color: #FFF;
+      background-color: var(--secondary);
+    }
   }
 }

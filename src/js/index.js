@@ -1,6 +1,4 @@
-import {saludo, despedida} from "./modules/example"
-import {activeMenu} from './modules/active-menu'
+import { SliderBanner } from './modules/slider-banner'
 
-// saludo()
-// despedida()
-activeMenu()
+
+SliderBanner(4000)

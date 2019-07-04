@@ -1,0 +1,11 @@
+<nav class="main-navbar">
+  <ul class="nav nav--principal" id="main-menu">
+    {{#each navbar }}
+      <li class="nav__item">
+        <a class="nav__link" href="{{slug}}">
+          {{ name }}
+        </a>
+      </li>
+    {{/each}}
+  </ul>
+</nav>

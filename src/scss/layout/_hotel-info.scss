@@ -1,0 +1,43 @@
+.hotel-info {
+	padding-top: 1rem;
+	padding-bottom: .45rem;
+	&__top {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+
+.main-header {
+	height: 500px;
+	margin-bottom: 2rem;
+	position: relative;
+	&__slider {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 85%;
+    max-width: 1020px;
+    margin: 0 auto;
+    img {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+      object-fit: cover;
+      transition: opacity .5s ease-in;
+    }
+    img + img {
+      opacity: 0;
+    }
+	}
+	&__content {
+		position: relative;
+	}
+}
+
+.main-hotel-info {
+	background: var(--primary);
+	background: linear-gradient(-86deg, rgba(255, 255, 255, 0) 33%, var(--primary) 77%);
+}
+
