@@ -1,0 +1,47 @@
+.tab {
+  background: var(--terceary);
+  &__title {
+    background: var(--primary);
+    color: var(--secondary);
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    padding: .35rem 0;
+  }
+
+  &__options {
+    display: flex;
+    list-style-type: none;
+  }
+
+  &__option-item {
+    padding-top: 1.6rem;
+    overflow: hidden;
+    &.active {
+      background-image: url('https://s3.amazonaws.com/cdn.henryraygan.com/portfolio/arrow.png');
+      background-size: 90% 1.3rem;
+      background-repeat: no-repeat;
+      background-position: top;
+
+
+      .tab__option-button {
+        color: var(--secondary);
+        background: var(--primary);
+      }
+    }
+  }
+
+  &__option-button {
+    border: 0;
+    background: transparent;
+    padding: .25rem;
+    font-size: .88rem;
+    margin-right: .25rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    
+    &:focus {
+      outline: none;
+    }
+  }
+}
