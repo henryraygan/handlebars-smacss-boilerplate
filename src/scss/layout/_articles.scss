@@ -4,6 +4,13 @@
   grid-gap: 6rem;
 }
 
+.principles {
+  &__title {
+    font-size: 1rem;
+    margin-bottom: .60rem;
+  }
+}
+
 .principles-atractions {
   display: grid;
   grid-template-columns: repeat(2,1fr);

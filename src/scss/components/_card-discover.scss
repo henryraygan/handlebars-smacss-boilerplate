@@ -19,4 +19,8 @@
   &__info {
     font-size: 2rem;
   }
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
 }

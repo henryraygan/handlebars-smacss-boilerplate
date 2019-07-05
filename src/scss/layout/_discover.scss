@@ -1,8 +1,10 @@
 .discover {
   &__title {
     color: var(--text-color-accent);
+    line-height: 1.6;
   }
   &__info {
     line-height: 1.6;
+    margin-bottom: 1rem;
   }
 }

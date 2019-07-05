@@ -1,0 +1,21 @@
+.form {
+  &__input {
+    background-color: var(--primary);
+    border: none;
+    padding: .25rem .35rem;
+    color: #FFF;
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  &__label {
+    margin-bottom: .2rem;
+    line-height: 1.6;
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+}

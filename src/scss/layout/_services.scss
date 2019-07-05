@@ -1,0 +1,20 @@
+.services {
+  padding: 3rem 0;
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  &__item {
+    i {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+    padding: 1.3rem 2.5rem;
+    white-space: nowrap;
+  }
+}

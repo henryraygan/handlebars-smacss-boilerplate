@@ -1,8 +1,27 @@
 .search-box {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-between;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
 
-  &__form {
-  }
+.hotel-form-reservation {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 1.2rem 0;
+  padding-right: 1rem;
+	&__item {
+		&:first-child {
+			grid-column: 1 / -1;
+		}
+	}
+}
+
+.box-rooms {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	.form__group:last-child {
+		grid-column: 1 / -1;
+	}
 }
