@@ -1,15 +1,18 @@
 .search-box {
-	margin-top: 40px;
+  margin-top: 40px;
+  padding-left: 1rem;
 	display: flex;
 	justify-content: space-between;
 }
 
 .hotel-form-reservation {
+  color: #FFF;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
   padding: 1.2rem 0;
   padding-right: 1rem;
+
 	&__item {
 		&:first-child {
 			grid-column: 1 / -1;
@@ -17,11 +20,101 @@
 	}
 }
 
-.box-rooms {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	.form__group:last-child {
-		grid-column: 1 / -1;
-	}
+.box-room {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1rem;
+
+  &__pax {
+    margin-bottom: 1rem;
+    &-item {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 1rem;
+    }
+  }
+}
+
+
+
+
+.ofert {
+
+  --yellow: #e4d05a;
+
+  position: relative;
+  width: 210px;
+  height: 280px;
+  background: rgba(#e4d05a, .80);
+  border-radius: 23% 16% 26% 31% / 13% 15% 28% 28%;
+  transform: rotate(8deg) translateX(-6%);
+
+  .button--cta {
+    margin: 1rem 0;
+  }
+
+  &__content {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1.5rem;
+    transform: rotate(-8deg);
+    line-height: 1.6;
+  }
+  &__title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  &__price-icon {
+    white-space: nowrap;
+    font-size: 2.2rem;
+  }
+  &__price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-color-accent);
+  }
+
+
+
+  &__band {
+    position: absolute;
+    top: -50%;
+    left: 66%;
+    transform: rotate(45deg);
+    div {
+      &:first-child {
+        width: 13px;
+        height: 45px;
+        transform: rotate(85deg);
+        background: rgba(#e4d05a, .80);
+        border-radius: 10px;
+      }
+      &:nth-child(2) {
+        width: 15px;
+        height: 15px;
+        background: rgba(rgb(228, 208, 90), .80);
+        border-radius: 100%;
+        transform: rotate(120deg) translate(-200%,-148%);
+        box-shadow: 13px 15px 0px 0px rgba(228, 208, 90, .8);
+      }
+      &:nth-child(3) {
+        width: 15px;
+        height: 15px;
+        background: rgba(rgb(228, 208, 90), .80);
+        border-radius: 100%;
+        transform: rotate(120deg) translate(-270%,-250%);
+        box-shadow: 13px 15px 0px 0px rgba(228, 208, 90, .8);
+      }
+      &:last-child {
+        width: 15px;
+        height: 15px;
+        background: rgba(rgb(228, 208, 90), .80);
+        border-radius: 100%;
+        transform: rotate(45deg) translate(296%,-250%);
+        box-shadow: 13px 15px 0px 0px rgba(228, 208, 90, .8),
+                    -13px -15px 0px 0px rgba(228, 208, 90, .8);
+      }
+    }
+  }
 }

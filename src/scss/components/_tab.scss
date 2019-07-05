@@ -9,6 +9,11 @@
     padding: .35rem 0;
   }
 
+  &__panels,
+  &__options {
+    padding-left: .55rem;
+  }
+
   &__options {
     display: flex;
     list-style-type: none;

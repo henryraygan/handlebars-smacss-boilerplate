@@ -6,48 +6,20 @@
     </div>
   </div>
   <div class="hotel-form-reservation__item">
-    <div class="form__group">
+    <div class="form__group with-icon">
       <label class="form__label" for="checkin">Chegada</label>
-      <input type="text" name="checkin" id="checkin" class="form__input">
+      <div class="form__group-with-icon">
+        <input type="date" name="checkin" id="checkin" class="form__input">
+        <i class="fas fa-calendar-alt"></i>
+      </div>
     </div>
-    <div class="form__group">
+    <div class="form__group with-icon">
       <label class="form__label" for="checkout">Saida</label>
-      <input type="text" name="checkout" id="checkout" class="form__input">
+      <div class="form__group-with-icon">
+        <input type="date" name="checkout" id="checkout" class="form__input">
+        <i class="fas fa-calendar-alt"></i>
+      </div>
     </div>
   </div>
-  <div class="box-rooms">
-    <div class="form__group">
-      <label class="form__label" for="rooms">Quartos</label>
-      <select name="rooms" id="rooms">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-      </select>
-    </div>
-    <div class="form__group">
-      <label class="form__label" for="rooms">Adultos</label>
-      <select name="rooms" id="rooms">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-      </select>
-    </div>
-    <div class="form__group">
-      <label class="form__label" for="rooms">Criancas</label>
-      <select name="rooms" id="rooms">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-      </select>
-    </div>
-    <div class="form__group">
-      <button class="button--cta">
-        Reservar agora
-      </button>
-    </div>
-  </div>
+  {{> box-room }}
 </form>

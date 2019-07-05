@@ -18,4 +18,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  &__select {
+    background: var(--primary);
+    border: none;
+    color: #FFF;
+  }
 }
