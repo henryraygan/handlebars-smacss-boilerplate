@@ -12,6 +12,11 @@
   width: max-content;
   position: relative;
   top: 25px;
+  @include phone {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+  }
   .nav__item {
     color: var(--secondary);
     &:hover {

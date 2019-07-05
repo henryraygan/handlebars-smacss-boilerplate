@@ -6,6 +6,9 @@
 		align-items: center;
     justify-content: space-between;
     padding-right: 1rem;
+    @include phone {
+      flex-direction: column;
+    }
 	}
 }
 
@@ -21,6 +24,13 @@
     width: 85%;
     max-width: 1020px;
     margin: 0 auto;
+
+    @include phone {
+      transform: translateX(0%);
+      left: 0;
+      width: 100%;
+    }
+
     img {
 			position: absolute;
 			width: 100%;
@@ -40,5 +50,8 @@
 .main-hotel-info {
 	background: var(--primary);
 	background: linear-gradient(-86deg, rgba(255, 255, 255, 0) 33%, var(--primary) 77%);
+  @include phone {
+    background: var(--primary);
+  }
 }
 

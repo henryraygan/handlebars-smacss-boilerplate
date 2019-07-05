@@ -2,13 +2,22 @@
   margin-top: 40px;
   padding-left: 1rem;
 	display: flex;
-	justify-content: space-between;
+  justify-content: space-between;
+  @include tablet {
+    flex-direction: column;
+  }
+  @include phone {
+    flex-direction: column;
+  }
 }
 
 .hotel-form-reservation {
   color: #FFF;
 	display: grid;
-	grid-template-columns: repeat(2,230px);
+  grid-template-columns: repeat(2,230px);
+  @include phone {
+    grid-template-columns: 1fr;
+  }
   grid-gap: 1rem;
   padding: 1.2rem 0;
   padding-right: 1rem;
