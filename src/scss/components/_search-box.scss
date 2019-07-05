@@ -91,6 +91,12 @@
     top: -50%;
     left: 66%;
     transform: rotate(45deg);
+    @include tablet {
+      display: none;
+    }
+    @include phone {
+      display: none;
+    }
     div {
       &:first-child {
         width: 13px;

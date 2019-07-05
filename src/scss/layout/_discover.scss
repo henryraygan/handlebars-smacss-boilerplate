@@ -1,4 +1,17 @@
 .discover {
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -10%;
+    bottom: 30%;
+    margin-left: 3rem;
+    width: 2px;
+    height: 200px;
+    opacity: .1;
+    background-color: var(--secondary);
+  }
   &__title {
     color: var(--text-color-accent);
     line-height: 1.6;
