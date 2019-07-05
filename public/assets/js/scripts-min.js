@@ -27,25 +27,20 @@ var boxRoom = exports.boxRoom = function boxRoom() {
   var h = buildHTML(1);
   controlPax.innerHTML = h;
 
-  currentRoom.addEventListener('change', function () {
+  currentRoom.addEventListener('change', function (e) {
     var html = '';
-    console.log('click on', currentRoom.value);
-
-    switch (currentRoom.value) {
-      case 2:
+    switch (e.target.value) {
+      case '2':
         html = buildHTML(2);
-        console.log(html);
         controlPax.innerHTML = html;
         break;
-      case 3:
+      case '3':
         html = buildHTML(3);
-        console.log(html);
         controlPax.innerHTML = html;
         break;
-      case 1:
+      case '1':
       default:
         html = buildHTML(1);
-        console.log(html);
         controlPax.innerHTML = html;
         break;
     }
@@ -54,7 +49,7 @@ var boxRoom = exports.boxRoom = function boxRoom() {
 
 var buildHTML = function buildHTML(index) {
   var build = '';
-  for (var i = 1; i < index; i++) {
+  for (var i = 0; i < index; i++) {
     build += getAddPeople(i);
   }
   return build;
