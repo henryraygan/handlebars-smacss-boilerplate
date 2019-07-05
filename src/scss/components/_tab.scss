@@ -17,6 +17,7 @@
   &__option-item {
     padding-top: 1.6rem;
     overflow: hidden;
+    
     &.active {
       background-image: url('https://s3.amazonaws.com/cdn.henryraygan.com/portfolio/arrow.png');
       background-size: 90% 1.3rem;
@@ -39,9 +40,15 @@
     margin-right: .25rem;
     border-radius: .25rem;
     cursor: pointer;
-    
+    color: var(--primary);
+    font-weight: 500;
     &:focus {
       outline: none;
     }
+  }
+
+
+  &__panel {
+    padding: 1rem;
   }
 }

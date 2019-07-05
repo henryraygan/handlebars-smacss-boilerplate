@@ -61,5 +61,16 @@
       "image": "http://dudasviajeras.com/wp-content/uploads/2014/06/playa-de-Ipanema-Brasil.jpg",
       "price": "171"
     }
+  ],
+  "slider": [
+    {
+      "image": "https://www.estacionesdelano.com/wp-content/uploads/2018/02/rio-de-janeiro-oto%C3%B1o-1024x744.jpg"
+    },
+    {
+      "image": "https://www.maypitravel.com/wp-content/uploads/2019/01/179856_C-102846.jpg"
+    },
+    {
+      "image": "https://playastop.com/wp-content/uploads/2018/12/5-Pan-de-Az%C3%BAcar..jpg"
+    }
   ]
 }

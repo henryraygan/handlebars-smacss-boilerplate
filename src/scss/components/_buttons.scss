@@ -16,3 +16,10 @@
   --background-color: var(--secondary);
   --color-button: #FFF;
 }
+
+.button--cta {
+  --background-color: linear-gradient(0deg, rgba(6,142,203,1) 44%, rgba(10,195,254,1) 100%);
+  --color-button: #FFF;
+  font-size: 1rem;
+  padding: .45rem;
+}
